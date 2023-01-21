@@ -9,6 +9,7 @@ export default class HTTP_ERROR extends Error {
     Error.captureStackTrace(this, HTTP_ERROR);
     this.name = this.constructor.name.replace('_Error', String(http_code));
     this.http_code = http_code;
+    this.message = message;
   }
 }
 

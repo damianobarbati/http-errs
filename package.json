@@ -1,0 +1,16 @@
+{
+  "name": "http-errs",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=19"
+  },
+  "scripts": {
+    "eslint": "eslint --ignore-path .gitignore --fix"
+  },
+  "devDependencies": {
+    "eslint-config-xs": "^1.6.1"
+  }
+}
